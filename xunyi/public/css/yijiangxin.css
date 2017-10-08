@@ -1,0 +1,160 @@
+/*图片展示部分 开始*/
+.show-img{
+	width: 100%;
+}
+.show-img >img{
+	width: 100%;
+}
+/*图片展示部分 结束*/
+.wrap{
+	width: 1200px;
+	margin:0 auto;
+}
+
+/*种类列表 开始*/
+/*部分导航 开始*/
+.styles{
+	width: 1200px;
+	height: 388px;
+	margin: 0 auto;
+}
+.styles-wrap{
+	width:464px; 
+	height: 187.3px;
+	margin:0 auto;
+	margin-top:100.7px;
+}
+.styles-wrap>div{
+	width:47.5px;
+	height: 187.3px;
+	float: left;
+	margin: 0 34.25px;
+}
+/*部分导航 结束*/
+
+/*泥人部分 开始*/
+.title{
+	width: 124.2px;
+	height: 60px;
+}
+.xian{
+	width: 100%;
+	height: 10px;
+	top:-11px;
+	position: relative;
+	z-index: 10;
+}
+.xian>img{
+	width: 100%;
+	margin-top: -11px;
+}
+
+/*内容描述部分 开始*/
+.dis{
+	margin-top:-11px;
+	height: 1005px;
+	width:100%;
+}
+.dis-top{
+	width:1154px;
+	height:615.8px;
+}
+.left,.right{
+	width:50%;
+	height:100%;
+}
+.left{
+	float: left;
+}
+.left-wrap{
+	width:556px ;
+	height:425px ;
+	margin:83px 44px 107.8px 0;
+}
+.left-wrap>p{
+	float:right;
+	width:17.9px;
+	height: 100%;
+	margin:0 8.05px;
+	font-size:14px;
+	text-align: center;
+	line-height: 17px;
+}
+.left-wrap>.left-first{
+	width: 19px;
+	margin:0 51.2px;
+	font-size: 18px;
+	text-align: center;
+}
+.left-wrap>.left-first>a{
+	color:#000;
+}
+.right{
+	float: right;	
+}
+.right-wrap{
+	width:584px;
+	height:516.6px ;
+	margin: 63px 0 36.2px 0;
+}
+.right-img1{
+	width:310.5px;
+	height:332.7px;
+	float: right;
+}
+.right-img2{
+	float: left;
+	margin-left:63px;
+	margin-top:288px;
+}
+.right-img1>img{
+	width:100%;
+}
+.dis-bottom{
+	width:1154px;
+	height:208px;
+	margin:0 auto;
+}
+.dis-bottom>div{
+	width:272.8px;
+	height:208px;
+	float:left;
+	margin-right:20.9px;
+}
+.dis-bottom>div>img{
+	width:100%;
+}
+.dis-bottom>.dis-bottom-last{
+	margin-right:0;
+}
+/*内容描述部分 开始*/
+/*泥人部分 结束*/
+
+/*剪纸部分 开始*/
+.left1{
+	float:right;
+}
+.right1{
+	float: left;
+}
+.right-imga{
+	float: right;
+}
+.right-imgb{
+	float:left;
+}
+/*剪纸部分 结束*/
+/*种类列表 结束*/
+.page{
+	width: 745px;
+	height:19px;
+	margin:0 auto;
+}
+.page div{
+	font-size: 12px;
+	float: left;
+	margin-right:50px;
+}
+.page .next{
+	margin-right:0;
+}
