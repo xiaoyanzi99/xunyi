@@ -1,0 +1,112 @@
+.wrap{
+	width:1200px;
+	margin:0 auto;
+}
+.title{
+	width:460px;
+	height:54px;
+	margin: 0 auto;
+	margin-top:90px;
+	background: url(/imgs/kuanga.png);
+	text-align: center;
+	color: #fff;
+	line-height:54px;
+	font-size:20px;
+}
+.one{
+	width:100%;
+	height:650px;
+	margin-bottom:84px;
+}
+.one>div{
+	width:50%;
+	height:100%;
+	float: left;
+	line-height:650px;
+}
+.left-wrap{
+	width:556px ;
+	height:425px ;
+	padding:83px 120px 107.8px 0;
+	position: relative;
+}
+.left-img{
+	width:200.6px;
+	height:223.3px;
+	position: absolute;
+	right:0;
+	bottom: 30px;
+}
+.left-img>img{
+	width:100%;
+}
+.left-wrap>p{
+	float:right;
+	width:17.9px;
+	height: 100%;
+	margin:0 8.05px;
+	font-size:14px;
+	text-align: center;
+	line-height: 17px;
+}
+.left-wrap>.left-first{
+	width: 19px;
+	margin:0 51.2px;
+	font-size: 18px;
+	text-align: center;
+}
+.right>img{
+	width:100%;
+}
+
+/*起源于发展  开始*/
+.two{
+	width:100%;
+	height:920px;
+}
+.two>div{
+	width:50%;
+	float:left;
+	height: auto;
+}
+.two>.left{
+	height:920px;
+}
+.left-img1{
+	width:443.8px;
+	height:647.9px;
+	margin-top:127px;
+	margin-left:80px;
+}
+.left-img1>img{
+	width:100%;
+}
+.right-title{
+	width:250px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	background:url(/imgs/kuang.png);
+	margin:0 auto;
+}
+.right>p{
+	text-indent: 2em;
+	width:568px;
+	margin:0 auto;
+	line-height:25px;
+	margin-bottom: 15px;
+	font-size:14px;
+}
+/*起源于发展  结束*/
+
+/*发展过程 开始*/
+.two1{
+	margin-bottom:77px;
+}
+.two>.left1{
+	float: right;
+}
+.two>.right1{
+	float:left;
+}
+/*发展过程 结束*/
