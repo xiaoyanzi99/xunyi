@@ -1,0 +1,232 @@
+
+
+
+/* 商品信息开始 */
+
+	.shangpingming{
+		width:1213px;
+		height:466px;
+		// background: red;
+		margin:0px auto;
+		margin-top: 100px;
+		display:flex;
+	}
+	.shangpingming>.shangpingming-one{
+		width:318.1px;
+		height:455px;
+	}
+	.shangpingming>.shangpingming-one>img{
+		width:100%;
+		height:100%;
+	}
+
+	.shangpingming>.shangpingming-two{
+		width:661px;
+		height:466px;
+		// background: blue;
+		margin-left: 60px;
+	}
+
+	.shangpingming>.shangpingming-two>.xiangxiang{
+		font-size: 24px;
+		font-weight: 800;
+	}
+	
+	.shangpingming>.shangpingming-two>.move-yidong{
+		display:flex;
+	}
+	.shangpingming>.shangpingming-two>.move-yidong>span{
+		font-size: 25px;
+		padding: 10px 17px;
+		background: #E60012;
+		color:#FFFFFF;
+		z-index: 0px;
+	}
+	.shangpingming>.shangpingming-two>.move-yidong>.move-yidong-two{
+		width:347px;
+		height:60px;
+		// background: blue;
+		margin-left: 33px;
+		margin-top: 15px;
+		display: flex;
+	}
+	.neirong{
+		width:208px;
+		height:60px;
+		border-right:2px solid black;
+	}
+	.neirong>a{
+		margin-right: 25px;
+	}
+	.tixing{
+		width:137px;
+		height:60px;
+		text-align: center;
+		line-height: 60px;
+		font-size: 24px;
+		font-weight: 800;
+	}
+	
+
+	.chujia{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.chujia>span{
+		color: red;
+		font-size: 24px;
+		margin-right: 30px;
+	}
+	
+	.shangpingming-two>.baozhenjing{
+		width:305px;
+		height:65px;
+		background: #45302D;
+		text-align: center;
+		line-height: 65px;
+		color:#FFFFFF;
+		font-size: 36px;
+		margin-top: 14px;
+		cursor:pointer;
+	}
+	.shangpingming-two>.qipaijia{
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.shangpingming-two>.qipaijia>span{
+		margin-left: 76px;
+	}
+	.shangpingming-two>.paimailiu{
+		font-size: 22px;
+		font-weight:800;
+	}
+	.shangpingming-two>.paiping{
+		width:260px;
+		height:65px;
+		background: #45302D;
+		font-size: 36px;
+		text-align: center;
+		line-height: 65px;
+		color:#FFFFFF;
+		cursor:pointer;
+	}
+
+
+/* 商品信息结束 */
+
+
+/* 商品品名   作者 开始 */
+
+.shabushi{
+	width:1213px;
+	height:210px;
+	margin:0px auto;
+	margin-top: 35px;
+}
+
+.liuyeping>p{
+	font-size: 24px;
+	font-weight:800;
+}
+.liuyeping>p:nth-child(1){
+	font-size: 24px;
+	font-weight:800;
+}
+.liuyeping>p:nth-child(1)>span{
+	margin-left: 229px;
+}
+
+.liuyeping>p:nth-child(2){
+	font-size: 24px;
+	font-weight:800;
+}
+
+.liuyeping>p:nth-child(2)>span{
+	margin-left: 157px;
+}
+
+/* 商品品名   作者 结束 */
+
+
+/* 拍卖详情开始 */
+
+.paimaikuang{
+	width:230.4px;
+	height:83.7px;
+	margin:0px auto;
+	position:relative;
+	text-align: center;
+	line-height: 83.7px;
+	color: #FFFFFF;
+	font-size: 	36px;
+}
+
+.paimaikuang>img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index: -2;
+}
+
+.paimaishitu{
+	width:568px;
+	margin:0px auto;
+}
+
+.paimaishitu>img{
+	margin-top: 35px;
+}
+
+/* 拍卖详情结束 */
+
+
+/* 出价记录开始 */
+
+.chujiajilu{
+	width:1193px;
+	height: 50px;
+	margin:0px auto;
+	display:flex;
+	margin-top: 90px;
+	font-weight: 800;
+}
+
+.chujiajilu>li{
+	width:515px;
+	height:60px;
+	line-height: 60px;
+}
+
+.chujiajilu>.jilu{
+	font-size: 36px;
+}
+
+.chujiazhuangtai{
+	width:1025px;
+	height:142px;
+	margin:0px auto;
+	margin-top: 32px;
+}
+
+.chujiazhuangtai>h4{
+	font-size: 36px;
+	font-weight:800;
+}
+
+.chujiazhuangtai>h4:nth-child(1){
+	margin-bottom: 42px;
+}
+
+.chujiazhuangtai>h4>span{
+	margin-right: 195px;
+}
+
+
+
+
+
+/* 出价记录结束 */
+
+
