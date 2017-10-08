@@ -1,0 +1,473 @@
+
+/* 刺绣图开始 */
+	.cixiu{
+		width:100%;
+		height:800px;
+		// background: red;
+		margin:0px auto;
+		background: url(../imgs/banner.png)no-repeat;
+		background-size:100% 100%;
+	}
+/* 刺绣图结束 */
+
+
+
+
+
+/* 拍卖图标开始 */
+	.auction-a{
+		width:230.4px;
+		height:83.7px;
+		margin:0px auto;
+		background: url(../imgs/TimeLimit.png)no-repeat;
+		background-size:100% 100%;
+		margin-top: 100px;
+	} 
+/* 拍卖图标结束 */
+
+
+/* 拍卖时间表开始 */
+	.auction-a>a>p{
+		// dispaly:block;
+		width:145px;
+		height:36px;
+		color:white;
+		font-size: 36px;
+		line-height: 83.7px;
+		// text-align: :center;
+		margin:0px auto;
+		z-index: 2px;
+	}
+	.auction-a>a{
+		text-decoration:none;
+	}
+
+	.time-a{
+		width:1200px;
+		height:80px;
+		// background: red;
+		margin:0px auto;
+		margin-top: 47px;
+		background: url(../imgs/cfadCopy.png)no-repeat;
+		background-size:100% 100%;
+		// line-height: 80px;
+	}
+
+	.time-a>ul{
+		width:1200px;
+		heith:80px;
+		margin:0px auto;
+		display:flex;
+	}
+
+	.time-a>ul>li{
+		display:block;
+		width:100%;
+		display:block;
+		float:left;
+	}
+
+	.time-a>ul>li>p{
+		font-size: 28px;
+		text-align:center;	
+	}
+	.time-a>ul>li>h5{
+		font-size: 24px;
+		text-align:center;
+	}
+	
+	/* 当前选项颜色 */
+	.time-active>p{
+		color:red;
+	}
+
+	.time-active>h5{
+		color:red;
+	}
+
+	.time-active-a>p{
+		color:red;
+	}
+
+	.time-active-a>h5{
+		color:red;
+	}
+
+/*  拍卖时间表结束  */
+
+
+
+
+
+
+/*   冯文士作品开始 */
+ 	#gourd-a{
+ 		width:1202px;
+ 		height:400px;
+ 		// background: red;
+ 		margin:0px auto;
+ 		display:flex;
+ 	} 
+	
+	.gourd-b{
+		width:368px;
+		height:400px;
+	}
+
+	.gourd-bb{
+		width:349.2px;
+		height:344.5px;
+		// background: red;
+		margin-top: 27px;
+		margin-left: 19px;
+		background: url(../imgs/feasdsa.png)no-repeat;
+		background-size:100% 100%;
+	}
+	.groud-c{
+		width:833px;
+		height:400px;
+	}
+	.groud-c>ul{
+		display:flex;
+		margin-top: 36px;
+	}
+
+	.groud-c>ul>li:nth-child(1){
+		width:634.3px;
+		height:80px;
+		/* background: red; */	
+		border-right:1px solid #BBBBBB;
+	}
+	
+	.groud-c>ul>li:nth-child(1)>p{
+		margin-left: 38.8px;
+	}
+	.groud-c>ul>li:nth-child(1)>p:nth-child(1){
+		font-weight: 800;
+		font-size: 26px;
+	}
+	.groud-c>ul>li:nth-child(1)>p:nth-child(2){
+		font-size: 22px;
+		color:#FF171717;
+	}
+	.groud-c>ul>li:nth-child(2){
+		width:199.5px;
+		height:80px;
+		/* background: blue; */
+	}
+	.groud-c>ul>li:nth-child(2)>img{
+		width:50px;
+		height:50px;
+		margin-top:10px;
+		margin-left: 50px;
+	}
+
+	.groud-c>ul>li:nth-child(2)>p{
+		font-size: 22px;
+		color:#97764B;
+		margin-left: 31.5px;
+	}
+
+	.price-a{
+		margin-left: 37.8px;
+	}
+	
+	
+	.price-a>p{
+		color:#BBBBBB;
+		font-size: 20px;
+	
+	}
+	.price-a>p>a{
+		color:red;
+		font-size: 28px;
+	}
+
+	.price-a p span{
+		color:black;
+		font-size: 28px;
+		margin-left: 28px;
+
+	}
+
+	.price-a p a{
+		margin-left: 28px;
+	}
+
+
+	/* input输入框 */
+
+	.groud-c>.offer{
+		display:flex;
+	}
+	.groud-c>.offer>h6{
+		color:#BBBBBB;
+		font-size: 20px;
+		margin-left: 37.8px;
+		margin-top: 39px;
+		width:61px;
+		height:28px;
+	}
+
+	.groud-c>.offer>input{
+		width:270px;
+		height:50px;
+		margin-top: 20px;
+		margin-left: 30px;
+		outline:none;
+		font-size: 28px;
+		color:#BBBBBB;
+	}
+
+
+	/* 加减操作 */
+	
+	.groud-c>.offer>.jiajian{
+		width:35px;
+		height:43px;
+		margin-top: 20px;
+	}
+
+	.groud-c>.offer>.jiajian>h2{
+		width:35px;
+		height:23px;
+		background: #D8D8D8;
+		font-size: 28px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		text-align: center;
+		line-height: 23px;
+	}
+	.groud-c>.offer>.jiajian>h2:nth-child(2){
+		margin-top: 2px;
+	}
+	
+
+	/* 加价按钮 */
+	
+	#gourd-a>.groud-c>.dare{
+		width:270px;
+		height:40px;
+		background: #E6241B;
+		margin-left: 128px;
+		font-size: 28px;
+		text-align: center;
+		line-height: 40px;
+		margin-top: 20px;
+	}
+
+	#gourd-a>.groud-c>.dare>a{
+		text-decoration:none;
+		color:#FFFFFF;
+	}
+	
+
+
+ /* 冯文士作品结束 */
+
+
+
+/* 云交易首页开始 */
+
+/* 图片切换开始 */
+	.switch-a{
+		width:1063.3px;
+		height:304.5px;
+		// background: green;
+		margin:0px auto;
+		margin-top: 30px;
+		position: relative;
+	}
+
+	.switch-one{
+		width:38.3px;
+		height:84.3px;
+		background: #BBBBBB;
+		margin-top: 110px;
+		position:absolute;
+		// line-height: 304.5px;
+	}
+
+	.switch-five{
+		width:38.3px;
+		height:84.3px;
+		background: #BBBBBB;
+		margin-top: 110px;
+		position:absolute;
+		margin-left: 1025px;
+	}
+
+	.equally-a{
+		width:280px;
+		height:276.3px;
+		margin-top: 14px;
+	}
+	.equally-a>img{
+		width:100%;
+		height:100%;
+	}
+
+	.santu{
+		float:left;
+		// position:absolute;
+	}
+
+	.switch-two{
+		margin-left: 88px;
+	}
+
+	.switch-three{
+		margin-left: 11px;
+	}
+
+	.switch-four{
+		margin-left: 11px;
+	}
+
+
+
+/* 图片切换结束 */
+
+/* 精品特卖开始 */
+
+	.sale-a{
+		width:230.4px;
+		height:83.7px;
+		margin:0px auto;
+		margin-top: 100px;
+		position: relative;
+	}
+	.sale-a>span{
+		// display:block;
+		color:#FFFFFF;
+		font-size: 36px;
+		position: absolute;
+		left:0px;
+		top:0px;
+		z-index: 9;
+		line-height: 83.7px;
+		margin-left: 43px;
+	}
+	.Sale-a>img{
+		width:100%;
+		height:100%;
+	}
+	
+
+	/* 列表栏开始 */
+	.ceramics{
+		width:888px;
+		height:221px;
+		// background: red;
+		margin:0px auto;
+		margin-top: 50px;
+	}
+	.ceramics li{
+		width:56px;
+		height:221px;
+		position:relative;
+		margin-left: 65px;
+		float:left;
+	}
+
+	.ceramics>li>span{
+		width:29px;
+		height:56px;
+		font-size: 28px;
+		color:#FFFFFF;
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index: 9;
+		margin-left: 10px;
+		margin-top: 56px;
+	}
+	/* 列表栏结束 */
+	
+
+
+
+	/* 排序集合开始 */
+	
+	.quanzhu{
+		position:relative;
+		margin:0px auto;
+	}
+	.comprehensive{
+		width:1200px;
+		height:60px;
+		// background: red;
+		margin:0px auto;
+		margin-top: 50px;
+		display: block;
+		background:url(../imgs/123copy8.png)no-repeat;
+		// background-size:100% 100%;
+		background-position: 0px 33px;
+
+	}
+	
+	.comprehensive>span{
+		padding:22px 22px;
+		// position: absolute;
+		// left:0px;
+		// top:0px;
+		margin-top:22px;
+	}
+
+	
+
+	.comprehensive-active{
+		background: url(../imgs/BitmapCopy8.png)no-repeat;
+		background-size:100% 100%;
+		
+	}
+	
+
+	/* 排序集合结束 */
+
+
+/* 精品特卖结束 */
+
+
+
+
+
+
+
+
+/* 图片列表开始 */
+
+	.decoration-a{
+		width:1220px;
+		height:675px;
+		// background:red;
+		margin:0px auto;
+		margin-top: 55px;
+		display: flex;
+	}
+	
+	.decoration-a>ul>li{
+		width:285px;
+		height:325px;
+		margin-left: 20px;
+		float:left;
+	}
+
+	.decoration-a>ul>li>img{
+		width:100%;
+		height:100%;
+	}
+	
+	.four-tu{
+		margin-top: 25px;
+	}
+
+
+/* 图片列表结束 */
+
+
+
+
+
+/* 云交易首页结束 */
+

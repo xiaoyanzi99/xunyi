@@ -1,0 +1,416 @@
+
+
+/* 云交易子页开始 */
+
+
+/* 景德镇陶总开始 */
+	.Jingdezhen{
+		width:860px;
+		height:550px;
+		margin:0px auto;
+		display:flex;
+	}
+
+	.Jingdezhen-one{
+		width:450px;
+		height:550px;
+		// background: blue;
+	}
+
+	.Jingdezhen-one>h3{
+		width:450px;
+		height:444.8px;
+	}
+
+	.Jingdezhen-one>h3>img{
+		width:100%;
+		height:100%;
+	}
+	
+	.Jingdezhen-one>ul{
+		margin-top:25px;
+	}
+	.Jingdezhen-one>ul>li{
+		width:50px;
+		height:50px;
+		float:left;
+		margin-right: 20px;
+	}
+	
+	.Jingdezhen-one>ul>li>img{
+		width:100%;
+		height:100%;
+	}
+
+
+
+
+
+
+	.Jingdezhen-two{
+		width:450px;
+		height:550px;
+	}
+
+	.Jingdezhen-two>ul>li:nth-child(1){
+		width:281px;
+		height:84px;
+		color:#090404;
+		font-weight: 800;
+		font-size:30px;
+		margin-top: 15px;
+		margin-left: 65px;
+	}
+	.Jingdezhen-two>ul>li:nth-child(2){
+		margin-left: 66px;
+		font-size: 18px;
+		color:black;
+	}
+	.Jingdezhen-two>ul>li:nth-child(2)>a{
+		text-decoration:none;
+		color:red;
+	}
+	.Jingdezhen-two>ul>li:nth-child(2)>a>span{
+		font-size: 30px;
+	}
+
+	.Jingdezhen-two>ul>li:nth-child(3){
+		margin-left: 66px;
+		margin-top: 30px;
+		font-size:18px;
+	}
+	.Jingdezhen-two>ul>li:nth-child(3)>span{
+		border:1px solid black;
+		font-size: 13px;
+		padding:5px;
+	}
+	.Jingdezhen-two>ul>li:nth-child(3)>span:nth-child(2){
+		margin-left: 21px;
+	}
+
+	.Jingdezhen-two>ul>li:nth-child(4){
+		font-size: 18px;
+		margin-top: 30px;
+		margin-left: 66px;
+	}
+
+	.Jingdezhen-two>.anniu{
+		margin-left:66px;
+		position:relative;
+	}
+	.Jingdezhen-two>.anniu>span{
+		float:left;
+		display:block;
+	}
+	
+	.Jingdezhen-two>.anniu>.yikuai{
+		display:flex;
+		width:100px;
+		position:absolute;
+		left:55px;
+		top:0px;
+	}
+
+	.Jingdezhen-two>.anniu>.yikuai>button{
+		width:20px;
+		height:20px;
+
+	}
+	.Jingdezhen-two>.anniu>.yikuai>input{
+		width:30px;
+		height:20px;
+		text-align: center;
+		outline:none;
+		margin:0px 10px 0px 10px;
+	}
+
+
+	/* 立即购买按钮  购物车按钮  开始 */
+
+	.Jingdezhen-two>.gouwuche{
+		width:280px;
+		height:50px;
+		// background: red;
+		margin-top: 100px;
+		margin-left: 66px;
+		display:flex;
+	}
+
+	.Jingdezhen-two>.gouwuche>button:nth-child(1){
+		width:120px;
+		height:50px;
+		background: #ECE3DC;
+		font-size: 18px;
+		outline:none;
+		border-radius:10%;
+	}
+	.Jingdezhen-two>.gouwuche>button:nth-child(2){
+		width:140px;
+		height:50px;
+		background: #F8E71C;
+		margin-left: 20px;
+		font-size: 18px;
+		outline:none;
+		border-radius:10%;
+	}
+
+	/* 立即购买按钮  购物车按钮  结束 */
+
+
+/* 景德镇陶总结束 */
+
+
+	.details-introduce{
+		width:1213px;
+		height:86.6px;
+		// background: red;
+		margin:0px auto;
+		margin-top: 40px;
+		background: url(../imgs/123copy8.png)no-repeat;
+		background-position: bottom;
+		position:relative;
+	}
+
+	/* 商品默认详情选中 */
+
+	.details-introduce>.active-xuanzhong{
+		background: #45302D;
+		color:#FFFFFF;
+	}
+	.details-introduce>img{
+		width:100%;
+	}
+	.details-introduce>span{
+		padding:22px;
+		position:absolute;
+		left:7px;
+		top:0px;
+		font-size: 30px;
+		background:url(../imgs/BitmapCopy8.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.details-introduce>span:nth-child(2){
+		margin-left: 163px;
+	}
+
+	.block-yunjiaoyi{
+		width:1200px;
+		height:785px;
+		margin:0px auto;
+		position:relative;
+	}
+	.block-yunjiaoyi-one{
+		width:525px;
+		height:221.4px;
+		display: flex;
+		float:left;
+	}
+	.block-yunjiaoyi-one>span{
+		width:235px;
+		height:75px;
+		font-size: 18px;
+		line-height: 25px;
+		margin-top: 97px;
+		margin-left: 27px;
+	}
+	.block-yunjiaoyi-two{
+		width:525px;
+		height:221.4px;
+		display: flex;
+		float: left;
+	}
+	.block-yunjiaoyi-two>span{
+		width:235px;
+		height:75px;
+		font-size: 18px;
+		line-height: 25px;
+		margin-top: 97px;
+		margin-left: 27px;
+	}
+	.block-yunjiaoyi-modian{
+		width:106px;
+		height:100.3px;
+		position: relative;
+		line-height: 100.3px;
+		text-align: center;
+		color:#FFFFFF;
+		font-size: 24px;
+		float:left;
+	}
+	.block-yunjiaoyi-modian>img{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0px;
+		left:0px;
+		z-index: -2;
+	}
+	
+	.block-yunjiaoyi-tu{
+		width:160px;
+		height:160px;
+		margin-top: 60.4px;
+	}
+
+	.block-yunjiaoyi-tu>img{
+		width:100%;
+		height:100%;
+	}
+
+	.block-yunjiaoyi-three{
+		width:690px;
+		height:340.9px;
+		// background: red;
+		position:relative;
+		margin-left: 195px;
+		display:flex;
+	}
+	.block-yunjiaoyi-three>.block-yunjiaoyi-tua{
+		width:303px;
+		height:303px;
+		margin-top: 24.6px;
+	}
+	.block-yunjiaoyi-three>.block-yunjiaoyi-tua>img{
+		width:100%;
+		height:100%;
+	}
+
+	.block-yunjiaoyi-three>span{
+		width:235px;
+		height:75px;
+		font-size: 18px;
+		line-height: 25px;
+		margin-top: 135px;
+		margin-left: 35px;
+	}
+
+
+
+	/* 商品展示开始 */
+	.zhanshi-ping{
+		width:1213px;
+		height:86.6px;
+		background: url(../imgs/123copy8.png)no-repeat;
+		background-position: bottom;
+		margin:0px auto;
+		position:relative;
+	}
+	
+	.zhanshi-ping>.zhanshiqu{
+		width:179.2px;
+		height:86.6px;
+		font-size: 30px;
+		line-height: 86.6px;
+		text-align: center;
+		margin-left: 7px;
+		background: #45302D;
+		color:#FFFFFF;
+		position:relative;
+	}
+
+	.zhanshi-ping>.zhanshiqu>img{
+		width:100%;
+		height:100%;
+		position: absolute;
+		left:0px;
+		top:0px;
+	}
+
+
+	
+	/* 商品展示结束 */
+
+
+
+
+	/* 商品信息开始 */
+	
+	.zhanshixingxi-one{
+		width:1213px;
+		height:375px;
+		margin:0px auto;
+		margin-top: 55px;
+		display: flex;
+	}
+	.zhanshixingxi-one>img{
+		width:199.7px;
+		height:375.7px;
+	}
+	
+	.zhanshixingxi-one>.wenzineirong{
+		width:689px;
+		height:252px;
+		margin-top: 70px;
+		margin-left: 50px;
+	}
+
+	.zhanshixingxi-one>.wenzineirong>p{
+		font-size: 14px;
+		margin-bottom: 21px;
+	}
+
+	.zhanshixingxi-one>.wenzineirong-di{
+		margin-left: 224px;
+	}
+	// .dierping{
+	// 	margin-left: 480px;
+	// }
+	.dierping>img{
+		margin-left: 50px;
+	}
+	
+	/* 商品信息结束 */
+
+	.chicui-one{
+		width:591.6px;
+		height:372.1px;
+		// background: blue;
+		margin:0px auto;
+		margin-top: 60px;
+		position:relative;
+	}
+	.chicui-one>img:nth-child(1){
+		float:left;
+		width:174.9px;
+		height:100%;
+	}
+	.chicui-one>span{
+		position:absolute;;
+		left:217px;
+		top:350px;
+		font-size: 18px;
+	}
+	.chicui-one>img:nth-child(2){
+		width:214.6px;
+		height:100%;
+		float:right;
+	}
+	.chicui-two{
+		width:770.7px;
+		height:466.9px;
+		// background: yellow;
+		margin:0px auto;
+		margin-top: 50px;
+		position:relative;
+	}
+
+	.chicui-two>img:nth-child(1){
+		float:left;
+		width:227.9px;
+		height:100%;
+	}
+	.chicui-two>span{
+		position:absolute;;
+		left:279px;
+		top:425px;
+		font-size: 18px;
+	}
+	.chicui-two>img:nth-child(2){
+		width:279.7px;
+		height:100%;
+		float:right;
+	}
+
+
+/* 云交易子页结束 */
+

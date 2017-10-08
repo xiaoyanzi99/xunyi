@@ -1,0 +1,175 @@
+.adv{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 47px;
+}
+.hint {
+	width: 183px;
+	height: 67px;
+	margin:0 auto;
+	margin-top: 100px;
+	background: url(/imgs/yhd/Bitmap.png);
+}
+.hint div{
+	color: #fff;
+	font-size: 24px;
+	height:67px;
+	line-height: 67px;
+	text-align: center;
+}
+.hint1{
+	
+}
+.flow{
+	width: 1200px;
+	height: 106px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.flow1{
+	width:1200px;
+	height:106px;
+	position: relative;
+}
+.flow1 .line{
+	position: absolute;
+	top:50px;
+	width: 100%;
+	height: 10px;
+	background: url(/imgs/yhd/line.png);
+	background-size: 100%;
+}
+.option{
+	width: 50px;
+	height: 100px;
+	float: left;
+	/*border:1px solid red;*/
+	font-size: 18px;
+	margin-right: 160px;
+	text-align: center;
+	font-weight: bold;
+}
+.option1{
+	margin-left:80px;
+}
+.option2{
+	margin-right:0;
+}
+.option .option-img{
+	width: 38px;
+	height: 35px;
+	margin:0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.option .zi{
+	width:80px;
+	margin-left: -16px;
+}
+.notice{
+	width: 1200px;
+	height: 223px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	margin-top:50px;
+}
+.notice .notice-xq,.notice2 .notice-xq{
+	float:left;
+	width: 388.6px;
+	height: 223px;
+	margin-top: 10px;
+	background: url(/imgs/yhd/juanzhou.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+.notice2 {
+	width: 780px;
+	height: 223px;
+	/*border: 1px solid red;*/
+	margin:0 auto;
+	margin-top: 43px;
+}
+.notice-xq h4{
+	margin-top: 37px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.notice-xq  div{
+	font-size: 18px;
+}
+
+.rule1{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	/*background: pink;*/
+}
+.rule{
+	width: 1000px;
+	height:240px;
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom:200px;
+	position: relative;
+
+}
+.rule .line{
+	width: 100%;
+	height: 10px;
+	background-size: 100%;
+	position: absolute;
+	background: url(/imgs/yhd/line.png);
+}
+.rule .line2{
+	top:0;
+}
+.rule .line3{
+	bottom:0;
+}
+.rule .upright{
+	width: 5px;
+	height: 240px;
+	background: url(/imgs/yhd/123.png);
+	background-size: 100%;
+	position: absolute;
+}
+.rule .upright1{
+	left: 0;
+}
+.rule .upright2{
+	right: 0;
+	top:56px;
+}
+.rule .duan{
+	width: 813px;
+	margin:0 auto;
+	overflow: hidden;
+	font-size: 18px
+}
+.rule .duan .lala{
+	margin-top: 64px;
+}
+.rule .rule-img{
+	width: 360px;
+	height: 270px;
+	/*border:1px solid red;*/
+	background: url(/imgs/yhd/bgCopy.png);
+	background-size: 100%;
+	position: absolute;
+	top:107px;
+	right:-360px;
+}
+
+.button{
+	width:204px;
+	height:72px;
+	background: url(/imgs/yhd/baoming.png);
+	margin:0 auto;
+	margin-top: -150px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 72px;
+	margin-bottom: 50px;
+
+} 
