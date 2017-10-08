@@ -1,0 +1,302 @@
+/*主体部分*/
+#main{
+
+	width:1200px;
+	height:auto;
+	padding:0;
+	margin-top: 71px;
+	margin-bottom: 30px;
+	position:relative;
+}
+/*云朵*/
+.yun{
+	width:474px;
+	height:364px;
+	background: url('/imgs/yixueyuanImg/yun.png') no-repeat;
+	position: absolute;
+	top:-40px;
+	left:-250px;
+}
+/*墨水*/
+.mo{
+	width:195px;
+	height:250px;
+	background:url('/imgs/yixueyuanImg/mo.png');
+	position: absolute;
+	bottom:50px;
+	left:-150px;
+
+}
+/*左侧 内容*/
+.wrap-left{
+	width:725px;
+	height:auto;
+	margin-right:105px;
+	float:left;
+}
+.head-title{
+	width:460px;
+	height:53px;
+	background:url('/imgs/yixueyuanImg/Page1Copy.png');
+	font-size: 24px;
+	color:#fff;
+	line-height:53px;
+	margin:0 auto;
+}
+.head-video{
+	width:682px;
+	height:363px;
+	margin:0 auto;
+	margin-top: 34px;
+	overflow: hidden;
+	position: relative;
+}
+.head-video img{ width:100%; height:100%; }
+
+.head-video .video-icon{
+	width:132px;
+	height:132px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left: -66px;
+	margin-top:-66px;
+	background:url('/imgs/yixueyuanImg/zanting.png') no-repeat;
+	background-size:100% 100%;
+}
+
+/*介绍*/
+.intro{
+	width:682px;
+	height:auto;
+	padding:0 10px;
+	margin:0 auto;
+	margin-top: 34px;
+	box-sizing:border-box;
+}
+.intro p{
+	font-size: 20px;
+	text-indent: 2em;
+}
+
+/* 人气、点赞、收藏、评论 */
+.func{
+	width:682px;
+	height:70px;
+	padding:0 10px;
+	margin:0 auto;
+	margin-top: 85px;
+	box-sizing:border-box;
+}
+.func div{
+	width:150px;
+	height:70px;
+	background:url('/imgs/yixueyuanImg/f7e36a03e0ee380d560c51046cfad268copy2.png');
+	text-align: center;
+	line-height: 70px;
+	font-size:20px;
+}
+.func div~div{
+	margin-left: 20px;
+}
+.func div span{
+	margin-left: 8px;
+}
+/*上传我的作品*/
+.upload{
+	width:189px;
+	height:69px;
+	background:url('/imgs/yixueyuanImg/BitmapCopy23.png');
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+	line-height: 69px;
+	margin:0 auto;
+	margin-top: 24px;
+	margin-bottom: 38px;
+}
+
+/*评论*/
+.comment{
+	width:725px;
+	height:148px;
+	background:url('/imgs/yixueyuanImg/kuang.png') no-repeat;
+	background-size:100% 100%;
+	padding:10px 25px;
+	box-sizing:border-box;
+	margin-bottom: 50px;
+}
+.comment-content{
+	width:100%;
+	height:85px;
+	font-size:16px;
+	outline:0 none;
+	border:0 none;
+	overflow: hidden;
+	resize:none;
+}
+.emjo{
+	width:33px;
+	height:33px;
+	background:#D8D8D8;
+	border:2px solid #bbb;
+	font-size: 12px;
+	text-align: center;
+	line-height: 31px;
+	float:left;
+	border-radius: 50%
+}
+.publish{
+	width:80px;
+	height:30px;
+	float: right;
+	box-shadow: 0 1px 2px 1px #aaa;
+}
+ 
+/*评论列表*/
+.comment-list{
+	width:725px;
+	height:auto;
+	padding:0 15px;
+	margin:0 auto;
+	box-sizing:border-box;
+	margin-bottom: 30px;
+}
+.user-img{
+	width:55px;
+	height:55px;
+	margin-top: -6px;
+}
+.user-img a{ display:inline-block; width:55px; height:55px; }
+.user-img img{ width:100%; }
+
+#comment-list-right{ margin-left: 60px; }
+.comment-time{
+	margin:0 10px;
+	font-size:10px;
+	color:#aaa;
+}
+.comment-res{ font-size:10px; color:777; }
+.comment-list p{ margin-top: 10px; margin-left: 10px; }
+
+
+/*右侧 内容*/
+.wrap-right{
+	width:370px;
+	height:auto;
+	/*background:pink;*/
+	padding:0;
+	float:left;
+}
+
+/*画*/
+.hua{
+	position: absolute;
+	top:520px;
+	right:0;
+	z-index: 1;
+	width: 870px;
+	height:626px;
+}
+
+.userImg{ 
+	width:138px;
+	height:138px;
+	margin-right: 50px;
+
+}
+.userName{
+	width:160px;
+	height:59px;
+	line-height: 59px;
+	margin-top:6px;
+	font-size: 24px;
+}
+.guanzhu{ 
+	width:162px;
+	height:59px;
+	background:url('/imgs/yixueyuanImg/BitmapCopy23.png');
+	background-size:100%;
+	color:#fff;
+	font-size: 24px;
+	line-height: 59px;
+	margin:0;
+}
+
+/*版权说明*/
+.copyright{
+	margin:55px 0;
+	font-size: 20px;
+}
+
+/*s手艺人其他视屏教程*/
+.otherVideo{ width:100%; }
+.otherVideo ul{ 
+	width:100% ;
+	height:190px;
+	margin-top:20px; 
+}
+.otherVideo ul li{
+	width:175px;
+	height:190px;
+	padding:0;
+	margin:0;
+	float: left;
+	position: relative;
+}
+.otherVideo ul li~li{ 
+	margin-left: 20px;
+}
+.otherVideo ul li img{ width:100%; }
+/*暂停按钮*/
+.stopBtn{
+	width:56px;
+	height:56px;
+	border-radius: 50%;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-28px;
+	margin-top:-28px;
+}
+
+/*与手艺相关的产品*/
+.goods{
+	margin-top: 40px;
+	margin-bottom:10px;
+}
+.good-img{ width:94px; height:94px; }
+.good-img a{ display:inline-block; width:94px; height:94px; }
+.good-img a img{ width:100%; }
+.good-info{
+	font-size: 18px;
+}
+
+/*糖人教程*/
+.tang{
+	width:100%;
+	margin-top:30px;
+	font-size: 18px;
+}
+.tang-head{ margin-bottom: 15px; }
+.tang-new{
+	float:right;
+	font-size:12px;
+	padding:0 5px;
+	margin-left: 10px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+.activeRed{  color:red; }
+.tang-list{
+	display: none;
+	margin-left:-20px;
+}
+.tang-img{
+	width:175px;
+	height:91px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.tang-img img{  width:100%; }
