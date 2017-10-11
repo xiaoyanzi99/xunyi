@@ -20,6 +20,7 @@ var yxypaging = require('./routes/yxypaging');
 var yjypaging = require('./routes/yjypaging');
 var users = require('./routes/users');
 
+
 var app = express();
 
 // view engine setup
@@ -48,6 +49,7 @@ app.use('/yijiaoyipaging', yunjiaoyipaging);
 app.use('/yxypaging', yxypaging);
 app.use('/yjypaging', yjypaging);
 app.use('/users', users);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

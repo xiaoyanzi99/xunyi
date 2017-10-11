@@ -6,6 +6,9 @@ var router = express.Router();
 var index = require('../controllers/index')
 
 router.get('/', index.index);
+router.get('/login', index.login);
+router.get('/zhuce', index.zhuce);
+router.post('/checkUser',index.checkUser)
 
 
 module.exports = router;

@@ -1,0 +1,60 @@
+<% include layouts/header %>
+<link rel="stylesheet" href="/css/login.css">
+<div id="login">
+	<div class="login-top">
+		<span>快速登陆</span>
+		<span><a href="/" style="color:#000">&times;</a></span>
+	</div>
+	<div class="logo">
+		<img src="/imgs/logo.png" alt="">
+	</div>
+	<form action="" class="form-horizontal">
+		<div class="form-grounp ">
+			<div class="input-group col-md-4 col-md-offset-4" id="input-group">
+				<span class="input-group-addon bg ">
+					<img src="/imgs/lianxi ren.png" alt="">
+				</span>
+				<input type="text" class="form-control" placeholder="请输入手机号/昵称">
+			</div>
+				
+		</div>
+		<div class="form-grounp ">
+			<div class="input-group col-md-4 col-md-offset-4" id="mima">
+				<span class="input-group-addon bg ">
+					<img src="/imgs/mima tu.png" alt="">
+				</span>
+				<input type="text" class="form-control" placeholder="请输入密码">
+			</div>
+				
+		</div>
+		<div class="row">
+			<div class="form-group col-md-5" style="float:left;margin-left:35px;margin-top:40px">
+				<div class="radio-inline col-md-offset-9">
+					<input type="radio" name="sex" id="nan" value="1"> <label for="nan">记住用户名</label>
+				</div>
+			</div>
+			<div class="kzc">
+				<span>忘记密码</span>
+				<span>|</span>
+				<span><a href="/zhuce" style="color:#E60012">快速注册</a></span>
+			</div>
+		</div>
+		<a href="" class="btn btn-success col-md-2 col-md-offset-5" style="background:#45302D;margin-top:30px">登陆</a>
+	</form>
+	<div class="bar">
+		<p>支持更多方式登陆</p>
+	</div>
+	<ul class="logos">
+		<li>
+			<img src="/imgs/weixin.png" alt="">
+		</li>
+		<li>
+			<img src="/imgs/weibo.png" alt="">
+		</li>
+		<li>
+			<img src="/imgs/qq.png" alt="">
+		</li>
+	</ul>
+</div>
+
+<% include layouts/footer %>
